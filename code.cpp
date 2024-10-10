@@ -1,17 +1,40 @@
 #include <iostream>
 using namespace std;
 class Info{
-    public :
+    private :
     string  ten, dienThoai, diaChi, email;
     public :
-    string getTen();
-    void setTen();
-    string getDienThoai();
-    void setDienThoai();
-    string getDiaChi();
-    void setDiachi();
-    string getEmail();
-    void setEmail();
+    string getTen() {
+        return ten;
+    }
+
+    void setTen(string tenMoi) {
+        ten = tenMoi;
+    }
+
+    string getDienThoai() {
+        return dienThoai;
+    }
+
+    void setDienThoai(string soDienThoaiMoi) {
+        dienThoai = soDienThoaiMoi;
+    }
+
+    string getDiaChi() {
+        return diaChi;
+    }
+
+    void setDiaChi(string diaChiMoi) {
+        diaChi = diaChiMoi;
+    }
+
+    string getEmail() {
+        return email;
+    }
+
+    void setEmail(string emailMoi) {
+        email = emailMoi;
+    }
 
 };
 class Employee{
