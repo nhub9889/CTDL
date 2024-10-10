@@ -23,7 +23,4 @@ public:
         user = newValue;
     }
 };
-int main() {
-    Node<int> node;
-}
 
