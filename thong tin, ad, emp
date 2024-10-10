@@ -1,0 +1,84 @@
+#include <iostream>
+using namespace std;
+
+
+class ThongTin {
+public:
+    string ten, dienThoai, diaChi, email;
+    string getTen() {
+        return ten;
+    }
+
+    void setTen(string tenMoi) {
+        ten = tenMoi;
+    }
+
+    string getDienThoai() {
+        return dienThoai;
+    }
+
+    void setDienThoai(string soDienThoaiMoi) {
+        dienThoai = soDienThoaiMoi;
+    }
+
+    string getDiaChi() {
+        return diaChi;
+    }
+
+    void setDiaChi(string diaChiMoi) {
+        diaChi = diaChiMoi;
+    }
+
+    string getEmail() {
+        return email;
+    }
+
+    void setEmail(string emailMoi) {
+        email = emailMoi;
+    }
+};
+class NhanVien {
+public:
+    string username, password;
+    void xemThongTin(ThongTin thongTin) {
+        cout << "Ten: " << thongTin.layTen() << endl;
+        cout << "Dien thoai: " << thongTin.layDienThoai() << endl;
+        cout << "Dia chi: " << thongTin.layDiaChi() << endl;
+        cout << "Email: " << thongTin.layEmail() << endl;
+    }
+
+    void doiMatKhau(string matKhauMoi) {
+        password = matKhauMoi;
+        cout << "Mat khau da duoc thay doi!" << endl;
+    }
+};
+class QuanTriVien {
+public:
+    string username, password;
+    void themNhanVien(NhanVien nhanVien) {
+        cout << "Da them nhan vien: " << nhanVien.username << endl;
+    }
+    bool timNhanVien(ThongTin thongTin) {
+        cout << "Dang tim kiem nhan vien voi ten: " << thongTin.layTen() << endl;
+        return true;
+    }
+    void xoaNhanVien(string username, bool timThay) {
+        if (timThay) {
+            cout << "Da xoa nhan vien voi username: " << username << endl;
+        }
+        else {
+            cout << "Khong tim thay nhan vien voi username: " << username << endl;
+        }
+    }
+    void capNhatNhanVien(NhanVien nhanVien) {
+        cout << "Da cap nhat thong tin cho nhan vien: " << nhanVien.username << endl;
+    }
+    void hienThiNhanVien(NhanVien nhanVien, ThongTin thongTin) {
+        cout << "Thong tin nhan vien: " << nhanVien.username << endl;
+        nhanVien.xemThongTin(thongTin);
+    }
+};
+int main() {
+
+}
+
