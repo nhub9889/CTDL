@@ -1,9 +1,25 @@
-Info thongtin;
-    public :
-    string getUsername() {return username;}
-    string getPassword() {return password;}
-    Info getThongTin() {return thongtin;}
-    void setUsername(string _username) { username = _username;}
-    void setPassword (string _password) {password = _password;}
-    setThongTin(Info _thongtin) { thongtin = _thongtin;}
-    void Thoat() {return EXIT_SUCCESS;}
+
+using namespace std;
+
+template <typename T>
+class Node {
+private:
+    T user;
+    Node* nextNode;
+
+public:
+    Node() : user(T()), nextNode(nullptr) {}
+    Node(T user) : user(user), nextNode(nullptr) {}
+    T getDanhSach() {
+        return user;
+    }
+    Node* getNext() {
+        return nextNode;
+    }
+    void setNext(Node* next) {
+        nextNode = next;
+    }    
+    void setNode(T newValue) {
+        user = newValue;
+    }
+};
