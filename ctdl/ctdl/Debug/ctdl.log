@@ -1,0 +1,6 @@
+﻿  ctdl.cpp
+C:\Users\Lenovo\Desktop\up\VS\ctdl\ctdl\ctdl.cpp(9,31): warning C4566: character represented by universal-character-name '\u1EA3' cannot be represented in the current code page (1252)
+C:\Users\Lenovo\Desktop\up\VS\ctdl\ctdl\ctdl.cpp(9,62): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
+C:\Users\Lenovo\Desktop\up\VS\ctdl\ctdl\ctdl.cpp(9,62): warning C4566: character represented by universal-character-name '\u1ED5' cannot be represented in the current code page (1252)
+C:\Users\Lenovo\Desktop\up\VS\ctdl\ctdl\ctdl.cpp(35): warning C4715: 'key': not all control paths return a value
+  ctdl.vcxproj -> C:\Users\Lenovo\Desktop\up\VS\ctdl\Debug\ctdl.exe
