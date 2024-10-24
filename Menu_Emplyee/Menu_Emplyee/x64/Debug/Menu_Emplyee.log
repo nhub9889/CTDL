@@ -1,0 +1,5 @@
+﻿  Menu_Employee.cpp
+D:\C++\Menu_Emplyee\Menu_Employee.cpp(197,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\C++\Menu_Emplyee\Menu_Employee.cpp(200,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\C++\Menu_Emplyee\Menu_Employee.cpp(203,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Menu_Emplyee.vcxproj -> D:\C++\Menu_Emplyee\x64\Debug\Menu_Emplyee.exe
