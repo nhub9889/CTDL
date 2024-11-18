@@ -833,7 +833,7 @@ void runHienThiEmployee() {
 
     // Duyệt qua danh sách nhân viên (linked list)
     Node<Employee>* current = dsEmployee.getDau();  // Truy cập đầu danh sách nhân viên
-
+    int t = 0;
     // Lặp qua tất cả các phần tử trong danh sách liên kết
     while (current != nullptr) {
         Employee emp = current->getNode();  // Lấy dữ liệu nhân viên từ node
@@ -850,7 +850,7 @@ void runHienThiEmployee() {
     }
 
     // Tạo menu hiển thị danh sách nhân viên
-    Menu thongTinMenu(displayData.size(), displayData, "Thong Tin Employee", 35, 5, 35, 10);
+    Menu thongTinMenu(displayData.size(), displayData, "Thong Tin Employee", 35, 5, 55, 10 + t);
 
     // In thông tin bằng cách gọi printMenu của Menu
     thongTinMenu.printMenu(0);
