@@ -342,6 +342,8 @@ void runXoaEmployee() {
                 else {
                     gotoxy(35, 18);
                     cout << "Employee da duoc xoa thanh cong, nhung khong the xoa file " << fileName << ".";
+                    dsEmployee = DanhSach<Employee>();
+                    dsEmployee.docDanhSach(file + "\\Employee");
                 }
 
                 while (true) {
