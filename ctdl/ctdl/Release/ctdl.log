@@ -1,0 +1,10 @@
+﻿  ctdl.cpp
+C:\Users\Lenovo\Desktop\up\VS\ctdl\ctdl\ctdl.cpp(114,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Lenovo\Desktop\up\VS\ctdl\ctdl\ctdl.cpp(962,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Lenovo\Desktop\up\VS\ctdl\ctdl\ctdl.cpp(1073,35): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  49 of 513 functions ( 9.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    9 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ctdl.vcxproj -> C:\Users\Lenovo\Desktop\up\VS\ctdl\Release\ctdl.exe
