@@ -206,7 +206,7 @@ void runThemEmployee() {
                 // Cập nhật file Employee.txt
                 ofstream empFile("Employee.txt", ios::app);
                 if (empFile.is_open()) {
-                    empFile << userNem <<" 111111"; // Ghi username của nhân viên mới vào Employee.txt
+                    empFile << userNem <<" 111111\n"; // Ghi username của nhân viên mới vào Employee.txt
                     empFile.close();
                 }
                 else {
