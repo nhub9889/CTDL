@@ -18,7 +18,9 @@ void Info::setThongTin(string username) {
     string fn = username + ".txt";
     ifstream in(fn);
     getline(in, ten);
-    in >> dienThoai >> diaChi >> email;
+    getline(in, dienThoai);
+    getline(in, diaChi);
+    getline(in, email);
     in.close();
 }
 
