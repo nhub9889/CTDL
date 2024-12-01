@@ -455,7 +455,7 @@ bool isValidEmail(const string& email) {
 
 
 bool isValidPhoneNumber(const string& phone) {
-    return phone.length() == 10 && all_of(phone.begin(), phone.end(), ::isdigit);
+        return phone.length() == 10 && all_of(phone.begin(), phone.end(), ::isdigit) && phone[0]=='0';
 }
 
 bool ktUser(string user) {
